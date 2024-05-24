@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe XD</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container mr-0 ml-0">
+        <nav class="flex justify-between items-center bg-indigo-800">
+            <div class="h-16 w-16">
+                <a href="#"><img class="rounded-half" src="assest/adobe-xd-logo-vector.svg" alt=""></a>
+            </div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a class="text-black font-medium text-lg hover:text-pink-500" href="#">Services</a></li>
+                <li><a class="text-black  font-medium text-lg hover:text-pink-500" href="#">Pricing</a></li>
+                <li><a class="text-black font-medium text-lg hover:text-pink-500" href="#">About</a></li>
+                <li><a class="text-black  font-medium text-lg hover:text-pink-500" href="#">Contact</a></li>
+            </ul>
+            <button
+                class="hidden md:block bg-green-500 px-6 py-2 rounded-full text-white hover:bg-pink-300  font-medium ">Signup</button>
+            <button class="md:hidden mobile-icon">
+                <svg class="h-10 w-10 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </nav>
+    </div>
+
+
+    <!-- Mobile Nav -->
+    <div class="md:hidden  mobile-menu">
+        <ul class="flex flex-col items-center space-y-6">
+            <li><a class="text-black font-medium hover:text-white" href="#">Services</a></li>
+            <li><a class="text-black  font-medium hover:text-white" href="#">Pricing</a></li>
+            <li><a class="text-black font-medium hover:text-white" href="#">About</a></li>
+            <li><a class="text-black  font-medium hover:text-white" href="#">Contact</a></li>
+            <li><button
+                    class=" bg-green-500 px-6 py-2 rounded-full text-white hover:bg-blue-300  font-medium">Signup</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container mx-auto mt-12 flex flex-col md:flex-row">
+        <div class="md:w-1/2 text-center">
+            <p class="mt-6 font-bold text-pretty" > Adobe XD is a desktop program made for designing user interfaces and wireframes for a variety of
+                applications. This collaborative tool allows BU educators and students to work together or alone on UI/UX projects,
+                building designs for apps, websites, and much more. </p>
+            <button class="bg-indigo-500 text-white px-6 py-2 rounded-full mt-6 font-medium">Get Started</button>
+        </div>
+        <div class="md:w-1/2">
+            <img class="mx-auto" src="./assest/hero.png" alt="">
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="container mx-auto flex flex-col md:flex-row gap-12  mt-12">
+        <div class='md:w-1/3 text-center flex flex-col items-center'>
+            <h1 class=" font-medium text-2xl">Web Development</h1>
+            <img class="h-40 w-40" src="./assest/website.svg" alt="">
+            <p class="font-semibold text-balance">Adobe XD is a powerful and versatile tool for web designers. It offers a wide range of features for creating
+                responsive websites that look great and perform well on all devices. XD. also makes prototyping designs easy, so you
+                can test different ideas before committing to a final design.</p>
+        </div>
+        <div class='md:w-1/3 text-center flex flex-col items-center'>
+            <h1 class="font-medium text-2xl ">Mobile App Development</h1>
+            <img class="h-40 w-40 " src="./assest/mobile_content.svg" alt="">
+            <p class="text-balance font-semibold">Adobe XD makes it simple to create a mobile app. Webkul is a conversion method that allows you a variety of options
+                for creating the best mobile app from Adobe-XD. Webkul gives primary tools, features, and the most common shortcuts
+                to boost your Mobile app productivity.</p>
+        </div>
+        <div class='md:w-1/3 text-center flex flex-col items-center'>
+            <h1 class="font-medium text-2xl">Design</h1>
+            <img class="h-40 w-40" src="./assest/designer.svg" alt="">
+            <p class="font-semibold text-balance">Adobe XD is the Adobe prototyping tool for user experience and interaction designers. Adobe XD features are used for
+                creating wireframes, prototypes, and screen designs for digital products such as websites and mobile apps.</p>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="container mx-auto mt-12 ">
+        <div class="text-center">
+            <h1 class="font-bold text-black-500 text-3xl">Pricing</h1>
+            <p class="text-2xl">Offers multiple packages for Monthly and Yearly Subscriptions</p>
+            <p class="text-2xl">Featured plans are here</p>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-10 gap-4 mt-4 mx-10 h-2">
+            <div class="relative mt-4 bg-gray-200  w-80 rounded-2xl hover:shadow-2xl text-center ">
+                <h1 class="font-bold text-3xl mt-4 ">Individuals</h1>
+                <h2 class="text-red-500 mb-3 font-bold">Rs: 4,630.32/mo incl.GST</h2>
+                <button class="inline-block t-sm   bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Free
+                    Trail</button>
+                <button class="inline-block bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Buy
+                    Now</button>
+                <p class="mt-4">Get 20+ Creative Cloud apps including Photoshop, Premiere Pro, Illustrator, Adobe
+                    Express, and Acrobat Pro — plus fonts, templates, storage, and more.</p>
+            </div>
+            <div class="relative mt-4 bg-gray-200  w-80 rounded-2xl hover:shadow-2xl text-center ">
+                <h1 class="font-bold text-3xl  mt-4">Students & teachers</h1>
+                <h2 class="text-red-500 mb-3 font-bold">Rs: 1,596.54/mo incl.GST</h2>
+                <button class="inline-block t-sm   bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Free
+                    Trail</button>
+                <button class="inline-block bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Buy
+                    Now</button>
+                <p class="mt-4">Save over 60% on 20+ creative apps and services. Available for qualified students and
+                    teachers.</p>
+            </div>
+            <div class="relative mt-4 bg-gray-200  w-80 rounded-2xl hover:shadow-2xl text-center ">
+                <h1 class="font-bold text-3xl mt-4">Teams</h1>
+                <h2 class="text-red-500 mb-3 font-bold">Rs: 5,750.00/mo per license excl. GST</h2>
+                <button class="inline-block t-sm   bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Free
+                    Trail</button>
+                <button class="inline-block bg-indigo-500 text-white px-3 py-2 rounded-full mt-6 text-sm">Buy
+                    Now</button>
+                <p class="mt-4">Get Creative Cloud All Apps plus features to boost business collaboration, easily manage
+                    licenses, simplify billing, and more.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stories section
+    <div class="container mx-auto mt-12">
+        <div class="text-center">
+            <h1>Recent Updates</h1>
+            <h1 class="text-5xl">Featured Stories</h1>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-32">
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="mt-4 w-full h-60" src="https://picsum.photos/200" alt="">
+                <h1 class="mt-4 text-2xl text-indigo-500">Google Rankings</h1>
+                <p class="font-thin my-4">Make it connect with every client worldwide</p>
+                <a href="#" class="text-indigo-500 font-bold hover:text-black">Read More</a>
+            </div>
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="mt-4  w-full h-60" src="https://picsum.photos/200" alt="">
+                <h1 class="mt-4 text-2xl text-indigo-500">Communication</h1>
+                <p class="font-thin my-4">Best communication for the business</p>
+                <a href="#" class="text-indigo-500 font-bold hover:text-black">Read More</a>
+            </div>
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="mt-4  w-full h-60" src="https://picsum.photos/200" alt="">
+                <h1 class="mt-4 text-2xl text-indigo-500">Remote Working</h1>
+                <p class="font-thin my-4">Remote connectivity for Consistent</p>
+                <a href="#" class="text-indigo-500 font-bold hover:text-black">Read More</a>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- footer -->
+    <footer class="bg-gray-200 mt-12">
+        <div class="container mx-auto flex flex-col md:flex-row sm:gap-5 py-10 md:pt-32">
+          <!-- Adobe XD Section -->
+          <div class="w-full md:w-1/4 mb-8 md:mb-0">
+            <div class="flex items-center space-x-2 mb-4">
+              <img width="32" height="32" src="assest/adobe-xd-logo-vector.svg" alt="Adobe XD" />
+              <h2 class="text-xl font-bold">Adobe XD</h2>
+            </div>
+            <ul class="space-y-2">
+              <li id="seeAllApps">
+                <a href="/in/support.html#/all_products" class="text-blue-500 hover:shadow-2xl">&lt; Visit Adobe Help Center</a>
+              </li>
+            </ul>
+            <ul id="hubLinks" class="space-y-2">
+              <li><a href="/in/en/support/xd.html" class="text-blue-500 hover:shadow-2xl" >Learn & Support</a></li>
+              <li><a href="/in/en/xd/get-started.html" class="text-blue-500 hover:shadow-2xl">Get Started</a></li>
+              <li><a href="/in/en/xd/user-guide.html" class="text-blue-500 hover:shadow-2xl">User Guide</a></li>
+              <li><a href="/in/en/xd/tutorials.html" class="text-blue-500 hover:shadow-2xl">Tutorials</a></li>
+            </ul>
+          </div>
+          <!-- Hotspots Section -->
+          <div class="w-full md:w-2/4 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div class="hotspot p-4 bg-white rounded shadow">
+              <h3 class="text-lg font-semibold">Ask the Community</h3>
+              <p class="text-gray-600">Post questions and get answers from experts.</p>
+              <a href="https://community.adobe.com/t5/adobe-xd/ct-p/ct-xd" class="mt-2 inline-block text-red-600 hover:underline">Ask now</a>
+            </div>
+            <div class="hotspot p-4 bg-white rounded shadow">
+              <h3 class="text-lg font-semibold">Contact Us</h3>
+              <p class="text-gray-600">Real help from real people.</p>
+              <a href="/in/en/contact.html?step=SPRK" class="mt-2 inline-block text-red-600 hover:underline">Start now</a>
+            </div>
+          </div>
+          <!-- Back to Top -->
+          <div class="w-full md:w-1/4 mt-8 md:mt-0 text-right">
+            <a href="#" class="text-blue-500 hover:underline">^&nbsp;Back to top</a>
+          </div>
+        </div>
+      </footer>
+      
+    <script>
+        const MobileIcon = document.querySelector('.mobile-icon')
+        const MobileMenu = document.querySelector('.mobile-menu')
+
+        MobileIcon.addEventListener('click', () => {
+            MobileMenu.classList.toggle('hidden')
+        })
+
+    </script>
+</body>
+
+</html>
